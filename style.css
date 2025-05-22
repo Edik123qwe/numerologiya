@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@font-face {
+    font-family: "Trickster";
+    src:
+      local("Forum"),
+      url("/fonts/Forum-Regular.ttf") format("opentype")
+}
+
+h1{
+    font-family: 'Forum';
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+main{
+    background-image: url('/images/main.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color:#FAEEFB;
+}
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color:#FAEEFB;
+    text-decoration: none;
+    margin-left: 60px;
+    font-family: 'Arial';
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    font-size: 64px !important;
+    margin:0 !important;
+}
+.main__container{
+    margin-left: 100px;
+    margin-top: 400px;
+}
+nav a{
+    font-size: 18px;
+}
+
+.nav__link{
+    background-color: #FAEEFB;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #5F4E75;
+}
+.nav__link2{
+    margin: 0;
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid #FAEEFB;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.second{
+    padding: 150px 250px;
+    background-color: #FAEEFB;
+    font-size: 32px;
+    font-family: 'Forum';
+    font-weight: 400;
+    text-align: center;
+}
+.second__container{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+.second__containerimng {
+    margin-bottom: 55px;
+}
+.main_png {
+    background-image: url("images/main.png")
+}
+
+
+
+@keyframes anim2 {
+    0%{
+        transform: rotateY(0) translate(0);
+    }
+    33%{
+        transform:translate(500px, -100px)
+    }
+    66%{
+        transform: translate(500px,-100px);
+        border-radius: 100px;
+        font-size: 50px;
+        font-family: unset;
+        color: bisque;
+        background-color: bisque;
+    }
+    100%{
+        transform: translate(0);
+        border-radius: 250px;
+        border: 5px solid black;
+        text-align: center;
+        color: black;
+        font-size: 120px;
+        background-color: bisque;
+        font-family: 'Hurricane', cursive;  
+    }
+}
+
+.slayder {
+    padding:50px;
+    background-color: #5F4E75;
+    
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.slayder img {
+    width:70%;
+    object-fit: contain;
+}
+.second_offer {
+    color:#5F4E75;
+}
+h4{
+    color:#5F4E75;
+}
+.third{
+  background-color:#5F4E75; 
+  padding-top:5%;
+  padding-bottom:5%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  width:100%;
+}
+.infa{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1.25;
+}
+h2{
+    font-family: "Forum", serif;
+    color:#FAEEFB;
+    font-size:70pt;
+    font-weight: 400;
+    padding:0;
+    margin: 0;
+    font-style: normal;
+}
+.infap{
+    font-family: 'Forum';
+    color:#FAEEFB;
+    font-size:25px;
+    padding:0;
+    margin: 0;
+}
+
+.numerolog {
+    flex: 0,25;
+
+}
+
+.bat {
+    flex: 1;
+    color: #ffffff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.podpis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 55%;
+    margin-bottom: 5%;
+    padding: 0;
+    
+}
+
+.batp {
+    max-width: 50%;
+}
+
+.btn { 
+     width: 300px;
+     height: 40px;
+     border: 2px solid white;
+     border-radius: 8px;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #5F4E75;
+    color: #FAEEFB;
+    font-weight: 400;
+}
+
+.strelka {
+    background-color: #FAEEFB;
+    padding: 5%;
+}
+
+h3 {
+    font-family: "Forum", serif;
+    color:#5F4E75;
+    font-size:50pt;
+    font-weight: 400;
+    padding:0;
+    margin: 0;
+    font-style: normal;
+    padding-bottom: 4%;
+}
+
+.line {
+    background-color:#5F4E75;   
+    width: 100%;
+    height: 2px;
+}
+
+.usluga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1% 0;
+    width: 100%;
+}
+
+h4{
+    font-family: "Forum", serif;
+    color:#5F4E75;
+    font-size:35pt;
+    font-weight: 400;
+    padding:0;
+    margin: 0;
+    font-style: normal;
+    padding-bottom: 4%;
+}
+
+.raschet {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+
+.raschetul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color:#5F4E75;
+    margin: 0;
+    padding: 0 0 0 5%;
+}
+
+.btn1 {
+    color:#5F4E75;
+    padding: 2% 20%;
+    border:#5F4E75 solid 2px;
+    background-color:#ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.price {
+    width: 30%;
+}
+
+.btn1a {
+    cursor: pointer;
+    color: #5F4E75;
+    text-align: center;
+}
+
+footer {
+    background-color:#5F4E75;
+    padding:1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copirate {
+    color:#FAEEFB;
+    font-family: 'open sans';
+}
+
+.icons {
+    display:flex;
+    align-items:center;
+}
+
+.icon {
+    width: 30%;
+}
+
+.iconimg {
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    h4 {
+        font-size: 25pt;
+    }
+    .second__containerimng {
+        margin-bottom: 27px;
+    }
+    .third {
+        flex-direction: column;
+    }
+    .numerologimg{ 
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    header {
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    h4 {
+        font-size: 25pt;
+    }
+    .second__containerimng {
+        margin-bottom: 27px;
+    }
+    .third {
+        flex-direction: column;
+    }
+    .numerologimg{ 
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    header {
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 0;
+    }
+    main {
+        background-size: contain;
+        background-image: url(main1.png);
+        background: linear-gradient(to right, #5F4E75, #FAEEFB, );
+    }
+}
+
+@media (min-width:420px ) and (max-width:667px) {
+    h4 {
+        font-size: 25pt;
+    }
+    .second__containerimng {
+        margin-bottom: 27px;
+    }
+    .third {
+        flex-direction: column;
+    }
+    .numerologimg{ 
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    header {
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        flex-direction: column;
+        display: flex;
+    }
+    a {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 932px) {
+    header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    a {
+        margin: 6;
+    }
+    main {
+        background-size: 932px;
+    }
+}
+
+@media (max-width: 430px) {
+    a{
+        margin: 0 0 15px 0;
+    }
+    main {
+        background-size: 430px;
+        height: 42vh;
+    }
+    .main__container {
+        margin-top: 0;
+        margin-left: 0;
+        background-color:#5F4E75;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    p {
+        text-align: center;
+    }
+    .second {
+        padding: 20px;
+        font-size: 25px;
+    }
+    .second_offer {
+        font-size: 20px;
+    }
+   h4 {
+    font-size: 22px;
+   }
+   h2 {
+    font-size: 30px;
+   }
+   .podpis {
+    margin: 0;
+   }
+   .iconimg {
+    width : 95%;
+   }
+}
