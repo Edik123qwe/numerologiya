@@ -460,3 +460,54 @@ footer {
     }
 }
 
+@media (min-width: 375px) and (max-width:420px) {
+    * {
+        margin:0;
+        padding:0;
+    }
+    body,html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header{
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding-top: 30px;
+    }
+    nav {
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+     .main__container {
+        margin-top: 0;
+        margin-left: 0;
+        background-color:#5F4E75;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main_png {
+        min-height: 59vh;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .second__containerimng {
+        margin-bottom: 15px;
+    }
+    .infa {
+        flex: 1;
+    }
+    .numerologimg {
+        width: 300px;
+        height: auto;
+    }
+}
